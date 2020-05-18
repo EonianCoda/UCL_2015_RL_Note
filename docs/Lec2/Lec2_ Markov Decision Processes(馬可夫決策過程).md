@@ -9,6 +9,7 @@ Markov Process(MP, 馬可夫過程)
 
 1. 未來的狀態(state)只與<font color='EA0000'><b>現在的狀態</b></font>有關，跟過去以往的狀態無關
 2. 一個State $S_t$擁有馬可夫性質(Markov) if only if
+![](http://latex.codecogs.com/gif.latex?\\P[S_{t+1}| S_t]=P[S_{t+1}| S_1,...,S_t])
 $$P[S_{t+1}| S_t]=P[S_{t+1}| S_1,...,S_t]$$
 ```
 未來只會取決於現在!
